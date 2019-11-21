@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <style>
+            #hero {
+                background: url(sky-edited.png) no-repeat top left fixed; 
+                background-size: cover;
+                width: 100%;
+                height: 100vh;
+            }
+
+            #logo {
+                width: 120px;
+                height: 120px;
+                object-fit: cover;
+                padding: 15px;
+            }
+
+            body {
+                margin: 0;
+            }
+
+            h1 {
+                font-family: 'Josefin Sans', sans-serif;
+                font-weight: 400;
+                font-size: 60pt;
+                margin: 35px 0;
+                color: #0a2239;
+                text-shadow: 2px 3px 10px rgba(0,0,0,0.3);
+            }
+
+            h2 {
+                font-family: 'Josefin Sans', sans-serif;
+                font-weight: 300;
+                font-size: 40pt;
+                margin-top: 0;
+                color: #0a2239;
+                text-shadow: 2px 3px 5px rgba(0,0,0,0.2);
+                margin-bottom: 35px;
+            }
+
+            .center {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .btn {
+                border-radius: 30px;
+                padding: 12px 18px;
+                font-family: 'Lato', sans-serif;
+                font-weight: 300;
+                font-size: 25px;
+                margin: 0 10px;
+                border: #0a2239 solid 3px;
+            }
+
+            .btn:hover {
+                cursor: pointer;
+                border: #071727 solid 3px;
+            }
+
+            .primaryBtn {
+                background-color: #0a2239;
+                color: white;
+                mix-blend-mode: darken;
+            }
+
+            .primaryBtn:hover {
+                background-color: #071727;
+            }
+
+            .secondaryBtn {
+                color: #0a2239;
+                text-shadow: 2px 3px 5px rgba(0,0,0,0.2);
+            }
+
+            .secondaryBtn:hover {
+                color: #071727;
+            }
+
+            .btnContainer {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        </style>
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400|Lato:300,400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="hero">
+            <div id="logo">
+                <img src="logo.svg" alt="">
+            </div>
+            <div class="center">
+                <h1>
+                    Good Morning, Ryan
+                </h1>
+                <h2>
+                    How are you feeling today?
+                </h2>
+                <div class="btnContainer">
+                    <div class="primaryBtn btn">
+                        Get Energized
+                    </div>
+                    <div class="secondaryBtn btn">
+                        Skip Morning Assessment
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
